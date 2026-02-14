@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -21,6 +25,10 @@ body {
     color: white;
 }
 
+.logo {
+    font-size: 22px;
+}
+
 .nav-links {
     list-style: none;
     display: flex;
@@ -30,12 +38,34 @@ body {
 .nav-links a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+#themeToggle {
+    padding: 8px 12px;
+    border: none;
+    background: white;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+#themeToggle:hover {
+    opacity: 0.85;
 }
 
 .section {
     padding: 60px 20px;
     max-width: 900px;
     margin: auto;
+}
+
+.section h2 {
+    margin-bottom: 15px;
 }
 
 .project-card {
@@ -55,6 +85,7 @@ form {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    margin-top: 15px;
 }
 
 input, textarea, button {
@@ -63,14 +94,24 @@ input, textarea, button {
     border: 1px solid #ccc;
 }
 
+textarea {
+    min-height: 120px;
+}
+
 button {
     background: #222;
     color: white;
     cursor: pointer;
+    font-weight: bold;
 }
 
 button:hover {
     background: #444;
+}
+
+#formMessage {
+    margin-top: 5px;
+    font-weight: bold;
 }
 
 footer {
@@ -80,7 +121,6 @@ footer {
     color: white;
 }
 
-/* Dark Mode */
 .dark-mode {
     background-color: #121212;
     color: white;
@@ -90,3 +130,30 @@ footer {
     background: #1e1e1e;
 }
 
+.dark-mode .navbar {
+    background: #000;
+}
+
+.dark-mode footer {
+    background: #000;
+}
+
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 15px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .section {
+        padding: 40px 15px;
+    }
+}
