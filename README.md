@@ -1,43 +1,28 @@
 # 202245960-MohammedAlnasr-assignment1
 # Personal Portfolio Website – Assignment 1
 
-## 📌 Project Overview
-This project is a responsive personal portfolio website developed as part of Assignment 1.  
-The purpose of this project is to build a clean and structured foundation for a professional portfolio using HTML, CSS, and JavaScript.
+## Project Description
 
-The website includes multiple sections such as About Me, Projects, and Contact, and demonstrates responsive design principles and interactive features.
+This project is a responsive personal portfolio website built using HTML, CSS, and JavaScript.  
+It serves as the foundation of a professional portfolio and demonstrates responsive design, structured layout, and basic interactivity.
 
----
+The website contains three main sections:
+- About Me
+- Projects
+- Contact
 
-## 🚀 Features
-- Responsive layout (Desktop, Tablet, Mobile)
-- Smooth scrolling navigation
-- Dark / Light mode toggle
-- Interactive contact form with validation
-- Clean and organized folder structure
-- Mobile-friendly navigation
+It also includes a dark/light theme toggle and smooth scrolling functionality.
 
 ---
 
-## 🛠 Technologies Used
-- HTML5
-- CSS3 (Flexbox + Media Queries)
-- JavaScript (DOM manipulation & event handling)
-- AI-assisted development tools
+## Setup Instructions (How to Run Locally)
 
----
+1. Clone the repository:
+git clone https://github.com/your-username/your-repository-name.git
 
-## 📂 Project Structure
-assignment-1/
-│
-├── index.html
-├── css/
-│ └── styles.css
-├── js/
-│ └── script.js
-├── assets/
-│ └── images/
-├── docs/
-│ ├── ai-usage-report.md
-│ └── technical-documentation.md
-└── README.md
+3. Open the project folder in VS Code or any code editor.
+
+4. Open `index.html` in your browser  
+   OR use the Live Server extension for better development experience.
+
+
