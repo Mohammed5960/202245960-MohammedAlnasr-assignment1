@@ -28,3 +28,16 @@ The website includes multiple sections such as About Me, Projects, and Contact, 
 ---
 
 ## 📂 Project Structure
+assignment-1/
+│
+├── index.html
+├── css/
+│ └── styles.css
+├── js/
+│ └── script.js
+├── assets/
+│ └── images/
+├── docs/
+│ ├── ai-usage-report.md
+│ └── technical-documentation.md
+└── README.md
