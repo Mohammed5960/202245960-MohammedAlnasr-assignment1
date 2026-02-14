@@ -18,7 +18,7 @@ It also includes a dark/light theme toggle and smooth scrolling functionality.
 ## Setup Instructions (How to Run Locally)
 
 1. Clone the repository:
-git clone https://github.com/your-username/your-repository-name.git
+git clone https://github.com/Mohammed5960/202245960-MohammedAlnasr-assignment1.git
 
 3. Open the project folder in VS Code or any code editor.
 
