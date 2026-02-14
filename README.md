@@ -1,4 +1,3 @@
-# 202245960-MohammedAlnasr-assignment1
 # Personal Portfolio Website – Assignment 1
 
 ## Project Description
